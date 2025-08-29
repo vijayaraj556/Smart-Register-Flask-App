@@ -1,5 +1,5 @@
 from flask import Flask, render_template 
-app = Flask(__Smart-Register-Flask-App__) 
+app = Flask(__name__) 
 @app.route('/') 
 def index(): 
     """ 
